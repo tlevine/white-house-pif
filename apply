@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Apply for Round 2 | Presidential Innovation Fellows</title>
+      <link href="//fonts.googleapis.com/css?family=Telex" media="all" type="text/css" rel="stylesheet">
+    <link href="https://innovationfellows.usa.gov/css/all.min.css?t=1361986692" media="all" type="text/css" rel="stylesheet">
+          <style>.only-user { display: none; }</style>      <script src="https://innovationfellows.usa.gov/js/modernizr.js"></script>
+  <script src="https://innovationfellows.usa.gov/js/vendor/jquery-1.8.1.min.js"></script>
+  <script src="https://innovationfellows.usa.gov/js/global.min.js?t=1361986692"></script>
+</head>
+<body class="no-auth" data-current-page="new-vendor" data-officer-name="" data-officer-id="" data-officer-user-id="">
+  <!--[if lt IE 8]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.
+</p>
+  <![endif]-->
+  <div id="outer-container">
+        <div class="logo-header">
+      <div class="container">
+        <a class="brand" href="https://innovationfellows.usa.gov/" data-no-turbolink="data-no-turbolink">
+          <img src="/img/logo-text-only.png" alt="Presidential Innovation Fellows" />
+        </a>
+      </div>
+    </div>
+    <div class="container">
+              <div id="signinModal" class="modal hide" tabindex="-1" role="dialog">
+  <div class="modal-header">
+    <button class="close" type="button" data-dismiss="modal">&times;</button>
+    <h5>Login to Presidential Innovation Fellows</h5>
+  </div>
+  <div class="modal-body">
+    <form action="https://innovationfellows.usa.gov/signin" method="POST">
+      <input type="hidden" name="modal" value="true" />
+      <div class="control-group">
+        <label class="control-label">Email</label>
+        <div class="controls">
+          <input id="email" class="span3" type="text" name="email" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Password</label>
+        <div class="controls">
+          <input class="span3" type="password" name="password" />
+          <a class="forgot" href="https://innovationfellows.usa.gov/forgotpassword">Forgot Password?</a>
+        </div>
+      </div>
+      <div class="control-group">
+        <div class="controls">
+          <label class="checkbox">
+            <input type="checkbox" checked="checked" name="remember" />
+            Remember Me?
+          </label>
+        </div>
+      </div>
+      <p>
+        <button class="btn btn-warning" type="submit">Sign in</button>
+      </p>
+    </form>
+  </div>
+</div>                                <h4>
+          Apply for Round 2                  </h4>
+                  <div class="row-fluid">
+  <div class="span7">
+    <p class="main-description">The Presidential Innovation Fellows (PIF) program pairs top innovators from the private sector, non-profits, and academia with top innovators in government to collaborate during focused 6-12 month "tours of duty" to develop solutions that can save lives, save taxpayer money, and fuel job creation.
+</p>
+    <p>
+      <strong>The Application Period for Round 2 Closes on March 17th, 2013 at 11:59pm EST.</strong>
+    </p>
+  </div>
+</div>
+    <form id="new-vendor-form" action="https://innovationfellows.usa.gov/vendors" method="POST">
+            <div class="row vendor-signup-container">
+      <fieldset class="span5">
+        <h5>Contact Info</h5>
+        <div class="control-group">
+          <label>Name</label>
+          <input type="text" name="vendor[name]" value="" />
+        </div>
+        <div class="control-group">
+          <label>Email</label>
+          <input type="text" name="vendor[email]" value="" />
+        </div>
+        <div class="control-group">
+          <label>Phone</label>
+          <input type="text" name="vendor[phone]" value="" />
+        </div>
+        <div class="control-group">
+          <label>Location</label>
+          <input id="locationInput" type="text" name="vendor[location]" value="" />
+          <input id="latitudeInput" type="hidden" name="vendor[latitude]" value="" />
+          <input id="longitudeInput" type="hidden" name="vendor[longitude]" value="" />
+        </div>
+        <h5>
+          Where can we find you online?<br />
+          <span class="smaller">Add up to 3 links (e.g. GitHub, LinkedIn, etc). Optional.</span>
+        </h5>
+        <div class="control-group">
+          <label>Link #1</label>
+          <input type="text" name="vendor[link_1]" value="" />
+        </div>
+        <div class="control-group">
+          <label>Link #2</label>
+          <input type="text" name="vendor[link_2]" value="" />
+        </div>
+        <div class="control-group">
+          <label>Link #3</label>
+          <input type="text" name="vendor[link_3]" value="" />
+        </div>
+      </fieldset>
+      <fieldset class="span5">
+        <h5>Why would you make a great fellow?</h5>
+        <div class="control-group why-great-fellow">
+          <textarea class="span4" name="vendor[general_paragraph]"></textarea>
+          <div class="help-block pull-right">
+            <p class="words-remaining-wrapper hidden">
+              <code class="words-remaining">150</code>
+              words left.
+            </p>
+            <p class="words-max-wrapper">
+              <code class="words-remaining">150</code>
+              words max.
+            </p>
+          </div>
+          <div class="clearfix">&nbsp;</div>
+        </div>
+        <h5>
+          Projects <br />
+          <span class="smaller">Check each project you are interested in serving on.</span>
+        </h5>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  Disaster Response &amp; Recovery &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/2" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[2]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  MyUSA &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/3" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[3]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  RFP-EZ and Innovative Contracting Tools &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/1" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[1]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  Cyber-Physical Systems &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/4" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[4]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  Open Data Initiatives &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/5" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[5]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  MyData Initiatives &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/6" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[6]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  Innovation Toolkit &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/7" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[7]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  21st Century Financial Systems &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/8" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[8]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                  <div class="project">
+            <div class="control-group">
+              <div class="control-label">
+                <label class="checkbox">
+                  <div class="controls">
+                    <input class="project-application-check" type="checkbox" />
+                  </div>
+                  Development Innovation Ventures &nbsp;
+                  <a class="project-description-link" href="https://innovationfellows.usa.gov/projects/9" target="_blank">Learn More</a>
+                </label>
+              </div>
+            </div>
+            <div class="control-group why-great collapse in">
+              <div class="control-label">
+                <label>Why are you great for this project?</label>
+              </div>
+              <controls>
+                <textarea class="span4" name="project_application[9]"></textarea>
+                <div class="help-block pull-right">
+                  <p class="words-remaining-wrapper hidden">
+                    <code class="words-remaining">150</code>
+                    words left.
+                  </p>
+                  <p class="words-max-wrapper">
+                    <code class="words-remaining">150</code>
+                    words max.
+                  </p>
+                </div>
+                <div class="clearfix">&nbsp;</div>
+              </controls>
+            </div>
+          </div>
+                <p class="more-info">
+          For more information visit <a href="http://whitehouse.gov/innovationfellows">WhiteHouse.gov</a>
+        </p>
+        <p class="more-info">
+          Questions or feedback? Email pif@ostp.gov
+        </p>
+      </fieldset>
+    </div>
+    <hr />
+    <div class="resume">
+      <label>
+        <h5>Résumé (copy and paste)</h5>
+      </label>
+      <div class="wysiwyg-wrapper">
+        <textarea class="wysihtml5" name="vendor[resume]"></textarea>
+      </div>
+    </div>
+    <div class="control-group">
+      <label class="checkbox">
+        <input type='checkbox' name="vendor[hire_me_elsewhere]"  />
+        Yes, it’s OK to consider me for positions in addition to Presidential Innovation Fellow.
+      </label>
+    </div>
+    <div class="form-actions">
+      <p class="smaller">
+        <em>Information submitted through this application will be shared with Federal agencies for the purpose of candidate review, selection, and hiring.</em>
+      </p>
+      <button class="btn btn-warning" type="submit">Submit Application</button>
+    </div>
+  </form>
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;sensor=false&amp;async=2&amp;callback=Rfpez.initialize_google_autocomplete"></script>
+    </div>
+  </div>
+  <footer class="footer">
+  <div class="container">
+    <p class="disclaimer span6">
+      This is an official website of the United States Government, and was created by <a href='http://wh.gov/innovationfellows/rfpez'>Team Project RFP-EZ</a> as part of the Presidential Innovation Fellows program.
+    </p>
+    <ul class="pull-right">
+      <li>
+        <a href="http://www.sba.gov/about-sba-info/privacy-policy">Privacy Policy</a>
+      </li>
+    </ul>
+  </div>
+</footer>      <script src="/js/vendor/google.analytics.js"></script>
+  </body>
+</html>
